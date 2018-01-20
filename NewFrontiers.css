@@ -1,0 +1,71 @@
+#testa, #test	{background-color:#9298c7; height:45px; width:250px; text-align:center; font-size:25px; 
+	border:1px solid #9298c7; border-radius:20px;}
+#nflogo  {height:100px; width:100%;}
+hr {width:100%; height:4px; background-color:#29cac8;}
+#sitefeatures 	{background-color:#dde4c1; height:30px; width:75%; border-bottom:1px solid #424c26;
+		
+		 }
+#header 	{
+		  background-color:#d6e29d; position:fixed; top:0px; left:0px; width:100%; margin-bottom:100px; z-index:4;
+		}
+#headdescription {
+			text-align:center;
+		}
+#contentarea 	{
+		 background-color:#d6e29d; position:absolute; top:290px; width:75%; padding-left:50px;
+			height:950px;
+		}
+
+#features 	{list-style-type:none; }
+.feature 	{display:inline-block; width:15%;}
+#socialcontact	{
+		background-color:#dcb640; height:30px; width:25%; position:relative; bottom:47px;
+		left:75%; text-align:center; border-bottom:1px solid #424c26;
+		margin:0px;
+		}
+.social 	{ 
+		display:inline-block; font-size:20px; font-weight:bold;
+		}
+#facebook	{
+		background-color:#628ddb; color:white;   width:30px;  position:absolute; top:3px; left:3px;
+		}
+#linkedin	{
+		background-color:#2ea9cb; color:white;  width:30px;  position:absolute; top:3px; left:65px;
+		}
+#twitter	{
+		background-color:#0bbbcd; color:white;  width:70px; position:absolute; top:3px; left:130px;
+		}
+#email	{
+		background-color:#93159d; color:white;  width:70px; position:absolute; top:3px; left:235px;
+		}
+a	{
+	text-decoration:none;
+	}
+a:hover	{
+	text-decoration:underline;
+	}
+a:clicked {
+	color:green;
+	}
+a:visited	{
+		color:brown;
+		}
+/*this section create the style specific to the rightside content */
+#rightcontent {
+		background-color:#aae4c1; height:950px; width:25%; position:absolute; top:290px; left:75%; 
+		
+		}
+#wrapper {
+		 overflow:hidden;
+	}
+
+
+
+/* this section is for dealing with the footer of the site */
+
+#foot 	{
+	background-color:#d5d57b; position:absolute; top:1200px; width:100%; height:80px; 
+	}
+#copyright {
+		position:relative; top:40px; text-align:center; 
+	}
